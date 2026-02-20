@@ -6,3 +6,7 @@ GameEntity::GameEntity() {
 }
 
 GameEntity::~GameEntity() {}
+
+void GameEntity::FlushGame(QWidget*,quint32){
+    //g_chess_board->FlushChessBoard();
+}

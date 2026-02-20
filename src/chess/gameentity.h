@@ -9,6 +9,9 @@ public:
     GameEntity();
     ~GameEntity();
 
+public:
+    void FlushGame(QWidget*,quint32);
+
 private:
     ChessBoard* g_chess_board;
 };

@@ -13,16 +13,16 @@ public:
     bool FlushChessBoard(E_ChessFLag);
 
 private:
-    QString GetUrl();
+    QString GetUrl();//获取棋盘背景文件
     bool SetUrl(QString);
 
-    quint32 GetChessNum();
+    quint32 GetChessNum();//获取棋子总数
     bool SetChessNum(quint32);
 
-    quint32 GetWidth();
+    quint32 GetWidth();//获取纵轴数
     bool SetWidth(quint32);
 
-    quint32 GetHeight();
+    quint32 GetHeight();//获取横轴数
     bool SetHeight(quint32);
 
 private:
